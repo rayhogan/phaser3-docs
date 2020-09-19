@@ -497,20 +497,105 @@ function buildNav(members) {
       '<a href="Phaser.GameObjects.Blitter.html">Blitter</a>',
       '<a href="Phaser.GameObjects.Blitter.Bob.html">Bob (Blitter Object)</a>',
       '<a href="Phaser.GameObjects.Container.html">Container</a>',
+      '<a href="Phaser.GameObjects.DOMElement.html">DOM Element</a>',
+      '<a href="Phaser.GameObjects.Extern.html">Extern</a>',
       '<a href="Phaser.GameObjects.Graphics.html">Graphics</a>',
       '<a href="Phaser.GameObjects.Group.html">Group</a>',
       '<a href="Phaser.GameObjects.Image.html">Image</a>',
+      '<a href="Phaser.GameObjects.Particles.ParticleEmitter.html">Particle Emitter</a>',
+      '<a href="Phaser.GameObjects.Particles.ParticleEmitterManager.html">Particle Emitter Manager</a>',
       '<a href="Phaser.GameObjects.PathFollower.html">Path Follower</a>',
       '<a href="Phaser.GameObjects.RenderTexture.html">RenderTexture</a>',
+      '<a href="Phaser.GameObjects.Shape.html">Shape</a>',
       '<a href="Phaser.GameObjects.Sprite.html">Sprite</a>',
       '<a href="Phaser.GameObjects.Sprite3D.html">Sprite3D</a>',
       '<a href="Phaser.GameObjects.Text.html">Text</a>',
       '<a href="Phaser.GameObjects.TileSprite.html">TileSprite</a>',
+      '<a href="Phaser.GameObjects.Video.html">Video</a>',
       '<a href="Phaser.GameObjects.Zone.html">Zone</a>',
       '&nbsp;',
+      '<a href="Phaser.Tilemaps.Tilemap.html">Tilemap</a>',
+      '<a href="Phaser.Tilemaps.DynamicTilemapLayer.html">Tilemap Layer (Dynamic)</a>',
+      '<a href="Phaser.Tilemaps.StaticTilemapLayer.html">Tilemap Layer (Static)</a>',
+      '&nbsp;',
+      '<a href="Phaser.GameObjects.Arc.html">Arc</a>',
+      '<a href="Phaser.GameObjects.Curve.html">Curve</a>',
+      '<a href="Phaser.GameObjects.Ellipse.html">Ellipse</a>',
+      '<a href="Phaser.GameObjects.Grid.html">Grid</a>',
+      '<a href="Phaser.GameObjects.IsoBox.html">IsoBox</a>',
+      '<a href="Phaser.GameObjects.IsoTriangle.html">IsoTriangle</a>',
+      '<a href="Phaser.GameObjects.Line.html">Line</a>',
+      '<a href="Phaser.GameObjects.Polygon.html">Polygon</a>',
+      '<a href="Phaser.GameObjects.Rectangle.html">Rectangle</a>',
+      '<a href="Phaser.GameObjects.Star.html">Star</a>',
+      '<a href="Phaser.GameObjects.Triangle.html">Triangle</a>',
+      '&nbsp;',
+      '<a href="Phaser.GameObjects.Rope.html">Rope (WebGL only)</a>',
+      '<a href="Phaser.GameObjects.Shader.html">Shader (WebGL only)</a>',
       '<a href="Phaser.GameObjects.LightsPlugin.html">Lights (WebGL only)</a>',
       '<a href="Phaser.GameObjects.Mesh.html">Mesh (WebGL only)</a>',
       '<a href="Phaser.GameObjects.Quad.html">Quad (WebGL only)</a>'
+    ]
+  });
+
+  //  Inject Physics Helper
+
+  topLevelNav.push({
+    title: 'Physics',
+    link: 'Phaser.Physics.html',
+    members: [
+      '<a href="Phaser.Physics.Arcade.html"><strong>Arcade Physics</strong></a>',
+      '<a href="Phaser.Physics.Arcade.Factory.html">Arcade Physics Factory</a>',
+      '<a href="Phaser.Physics.Arcade.World.html">Arcade Physics World</a>',
+      '<a href="Phaser.Physics.Arcade.Image.html">Arcade Physics Image</a>',
+      '<a href="Phaser.Physics.Arcade.Sprite.html">Arcade Physics Sprite</a>',
+      '<a href="Phaser.Physics.Arcade.Group.html">Arcade Physics Group</a>',
+      '&nbsp;',
+      '<a href="Phaser.Physics.Matter.MatterPhysics.html"><strong>Matter Physics</strong></a>',
+      '<a href="Phaser.Physics.Matter.Factory.html">Matter Physics Factory</a>',
+      '<a href="Phaser.Physics.Matter.World.html">Matter Physics World</a>',
+      '<a href="Phaser.Physics.Matter.Image.html">Matter Physics Image</a>',
+      '<a href="Phaser.Physics.Matter.Sprite.html">Matter Physics Sprite</a>',
+      '<a href="Phaser.Physics.Matter.PointerConstraint.html">Matter Physics Pointer Constraint</a>'
+    ]
+  });
+
+  //  Inject Scene Helper
+
+  topLevelNav.push({
+    title: 'Scene',
+    link: 'Phaser.Scene.html',
+    members: [
+      '<a href="Phaser.Scene.html">Scene</a>',
+      '<a href="Phaser.Scenes.ScenePlugin.html">Scene Plugin</a>',
+      '<a href="Phaser.Scenes.Systems.html">Scene Systems</a>',
+      '<a href="Phaser.Types.Scenes.html#.SettingsConfig">Scene Configuration</a>',
+      '&nbsp;',
+      '<a href="Phaser.GameObjects.GameObjectFactory.html">add</a>',
+      '<a href="Phaser.Animations.AnimationManager.html">anims</a>',
+      '<a href="Phaser.Cache.CacheManager.html">cache</a>',
+      '<a href="Phaser.Cameras.Scene2D.CameraManager.html">cameras</a>',
+      '<a href="Phaser.GameObjects.DisplayList.html">children</a>',
+      '<a href="Phaser.Data.DataManager.html">data</a>',
+      '<a href="Phaser.Events.EventEmitter.html">events</a>',
+      '<a href="Phaser.FacebookInstantGamesPlugin.html">facebook</a>',
+      '<a href="Phaser.Game.html">game</a>',
+      '<a href="Phaser.Physics.Impact.ImpactPhysics.html">impact</a>',
+      '<a href="Phaser.Input.InputPlugin.html">input</a>',
+      '<a href="Phaser.GameObjects.LightsManager.html">lights</a>',
+      '<a href="Phaser.Loader.LoaderPlugin.html">load</a>',
+      '<a href="Phaser.GameObjects.GameObjectCreator.html">make</a>',
+      '<a href="Phaser.Physics.Matter.MatterPhysics.html">matter</a>',
+      '<a href="Phaser.Physics.Arcade.ArcadePhysics.html">physics</a>',
+      '<a href="Phaser.Plugins.PluginManager.html">plugins</a>',
+      '<a href="Phaser.Data.DataManager.html">registry</a>',
+      '<a href="Phaser.Scale.ScaleManager.html">scale</a>',
+      '<a href="Phaser.Scenes.ScenePlugin.html">scene</a>',
+      '<a href="Phaser.Sound.BaseSoundManager.html">sound</a>',
+      '<a href="Phaser.Scenes.Systems.html">sys</a>',
+      '<a href="Phaser.Textures.TextureManager.html">textures</a>',
+      '<a href="Phaser.Time.Clock.html">time</a>',
+      '<a href="Phaser.Tweens.TweenManager.html">tweens</a>'
     ]
   });
 
